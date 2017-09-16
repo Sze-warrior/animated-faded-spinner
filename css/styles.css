@@ -107,7 +107,8 @@ input {
   background-repeat: no-repeat; }
 
 @media screen and (max-width: 767px) {
-  margin-top: 50px; }
+  .container {
+    margin-top: 50px; } }
 
 .form-container {
   padding-top: 20px;
@@ -274,6 +275,6 @@ input {
 
 @media screen and (max-width: 767px) {
   .btn-spinner .loading-description {
-    padding-left: 35px; }
+    padding-left: 15px; }
   .btn-spinner .spinner-container {
-    right: 80px; } }
+    right: 100px; } }
