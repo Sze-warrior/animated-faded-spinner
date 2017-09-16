@@ -33,17 +33,18 @@
         font-size: $font-size-default;
         margin-bottom: 0;  
         padding-left: 0;  
+    }
 
-        &.loading-description {
-            font-weight: bold;
-            padding-left: $grid-gutter-width/2;
-        }
+
+    .loading-description {
+        font-weight: bold;
+        padding-left: 24px;
     }
 
     .spinner-container{
         position: absolute;
         left: 0px;
-        right: 94px;
+        right: 90px;
         top: 24px;
         margin: 0 auto;
         display: block;
@@ -73,8 +74,12 @@
 
     .btn-spinner{
 
+        .loading-description{
+            padding-left: 35px;
+        }
+
         .spinner-container{
-            right: 70px;        
+            right: 80px;        
         }
 
     }

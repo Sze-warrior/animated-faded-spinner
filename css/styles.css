@@ -249,13 +249,13 @@ input {
     font-size: 16px;
     margin-bottom: 0;
     padding-left: 0; }
-    .btn-spinner .btn-description.loading-description {
-      font-weight: bold;
-      padding-left: 20px; }
+  .btn-spinner .loading-description {
+    font-weight: bold;
+    padding-left: 24px; }
   .btn-spinner .spinner-container {
     position: absolute;
     left: 0px;
-    right: 94px;
+    right: 90px;
     top: 24px;
     margin: 0 auto;
     display: block;
@@ -273,5 +273,7 @@ input {
     border-color: #245f77; }
 
 @media screen and (max-width: 767px) {
+  .btn-spinner .loading-description {
+    padding-left: 35px; }
   .btn-spinner .spinner-container {
-    right: 70px; } }
+    right: 80px; } }
